@@ -1,0 +1,14 @@
+version = 1
+
+[include]
+environments = [
+  { remote = "zmitchell/rust-build" },
+  { remote = "zmitchell/rust-dev" },
+  { remote = "zmitchell/rust-test" }
+]
+
+[options]
+cuda-detection = false
+
+[install]
+cargo-license.pkg-path = "cargo-license"
