@@ -2,21 +2,17 @@
 name = "stringmetrics"
 version = "2.2.2"
 edition = "2021"
-authors = ["Trevor Gross <tmgross@umich.edu>"]
+authors = ["Trevor Gross <tmgross@umich.edu>", "Zach Mitchell <zmitchell@fastmail.com>"]
 description = "Rust library for approximate string matching"
 
 # Note: these are symlinked from top level
 readme = "README.md"
-license-file = "LICENSE"
+license = "Apache-2.0"
 
-documentation = "https://docs.rs/stringmetrics"
-repository = "https://github.com/pluots/stringmetrics"
+repository = "https://github.com/flox/stringmetrics"
 
 keywords = ["levenshtein"]
 categories = ["algorithms", "text-processing"]
-
-[badges]
-maintenance = { status = "actively-developed" }
 
 # Config for the rust-usable library and the executable binary
 [lib]
